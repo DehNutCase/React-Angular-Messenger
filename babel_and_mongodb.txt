@@ -1,0 +1,4 @@
+npx babel --watch src --out-dir . --presets react-app/prod
+C:\Program Files\MongoDB\Server\4.4\bin
+set PATH=%PATH%;C:\Program Files\MongoDB\Server\4.4\bin
+mongod -dbpath .

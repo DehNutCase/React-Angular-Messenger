@@ -37,7 +37,7 @@ export default function LoginPage({ setToken }) {
       <h1>Please Log In</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label for="username">Username</label>
+          <label htmlFor="username">Username</label>
           <input
             id="username"
             type="text"
@@ -46,7 +46,7 @@ export default function LoginPage({ setToken }) {
           />
         </div>
         <div className="form-group">
-          <label for="password">Password</label>
+          <label htmlFor="password">Password</label>
           <input
             id="password"
             type="password"
